@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:70px 70px 300px 500px 300px 300px;
+
+
+}
+
+.div1{
+    background-color: white;
+    color: #4A4A4A;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-top: 30px;
+    border-bottom: 1px gray groove;
+    box-shadow: 1px gray;
+    height: 70px;
+}
+
+.div1 h3{
+    font-weight: lighter;
+    padding-left: 10px;
+    /* padding-top: -20px; */
+}
+
+.div1 img{
+    width: 90px;
+}
+
+.div2{
+    background-color: #FF7700;
+    color: white;
+    font-weight: bold;
+    height: 70px;
+    /* height: 50px; */
+}
+
+.div3 {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+}
+
+.div3 img{
+    width: 700px;
+    height: 400px;
+}
+
+.para{
+    margin-left: 50px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.para h1{
+    font-size: 40px;
+}
+
+.div4{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 300px;
+    margin-top: 80px;
+    background-color: #4285F4;
+    height:1230px;
+}
+
+.div4 h1{
+    margin-top: 50px;
+    margin-left: 20px;
+    color: white;
+}
+
+.insidediv4{
+     display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.insidediv4 img{
+    width: 60px;
+}
+
+.first{
+    width: 300px;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 500px;
+    background-color: white;
+    margin-top: -150px;
+    border-radius: 5px;
+    margin-left: 8px;
+    border: hidden #8f8e8e;
+    box-shadow: 1px 1px 1px 1px #c0c0c0;
+}
+
+.second{
+    width: 300px;
+    justify-content: center;
+    padding-left: 20px; 
+    padding-top: 10px;
+    height: 500px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 8px;
+    border: hidden #8f8e8e;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #c0c0c0;
+}
+
+.meet{
+    margin-top: 550px;
+    display: grid;
+    margin-left: 60px;
+    grid-template-rows: 300px;
+    height: 300px;
+}
+
+.meet h1{
+    font-weight: lighter;
+}
+
+.justin{
+    background-color: #F2F2F2;
+    justify-content: center;
+    align-items: center;
+    border: 1px groove gray;
+    box-shadow: 2px 2px 2px 2px gray;
+    display: flex;
+    /* padding-left: -200px; */
+    margin-top: 350px;
+    margin-left: 60px;
+    margin-right: 100px;
+    border: none;
+    border-radius: 10px;
+}
+
+.box{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+.box hr{
+    width: 1000px;
+    padding-left: -10px;
+}
+
+.krista{
+    background-color: #F2F2F2;
+    justify-content: center;
+    align-items: center;
+    border: 1px groove gray;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 100px;
+}
+
+
+
+.ana{
+    margin-top: 50px;
+    display: grid;
+    margin-left: 60px;
+    grid-template-rows: 300px;
+    height: 300px;
+}
+
+.ana h1{
+    font-weight: lighter;
+}
+
+.for{
+    margin-top: -250px;
+    margin-left: 60px;
+    height: 300px;
+}
+
+.themain{
+    display: flex;
+    margin-top: -200px;
+    margin-left: 60px;
+    column-gap: 20px;
+}
+
+.themain div img{
+    width: 50px;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+
+.themain div{
+    background-color: #F2F2F2;
+    height: 180px;
+    width: 300px;
+    border: 1px groove;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #4A4A4A;
+}
+
+.themain div p{
+  margin-top: 10px; 
+  margin-left: 50px; 
+}
+
+.lastone{
+    margin-left: 60px;
+    margin-top: 50px;
+    height: 250px;
+    margin-right: 60px;
+    background-color:#F2F2F2 ;
+}
+.lastone h1{
+    margin-left: 60px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+
+.glast{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    gap: 120px;
+}
+
+.glast div p a{
+    margin-left: -10px;
+    color: black;
+    text-decoration: none;
+}
+
+.arr{
+    margin-left: 200px;
+}
+
+.arr img{
+    padding: 20px;
+}
+
+.arro{
+    margin-bottom:50px;
+    position: relative;
+    /* margin-left: 200px; */
+}
+
+.arro img{
+    margin-left: 200px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
